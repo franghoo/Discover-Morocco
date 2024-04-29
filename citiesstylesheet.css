@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+scroll-behavior: smooth;
+}
+
+.cities{
+    min-height: 100vh; /*entire height of user's screen*/
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.images{
+    display: flex;
+    margin: auto; 
+}
+
+.text{
+    left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    width:80%;
+    text-align: center;
+}
+
+.marrakesh{
+    width: 30%;
+    position:relative;
+    margin: 1%;
+    text-align: center;
+    padding: 5% 2%;
+    display: inline-block; /*horizontal*/
+    
+}
+.marrakesh img{
+    width: 80%;
+    border-radius: 25px;
+    
+}
+
+.layer{
+    background-color: transparent;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.layer:hover{
+    background-color: rgba(40, 54, 24, 0.7);
+
+}

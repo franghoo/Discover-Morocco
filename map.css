@@ -1,0 +1,42 @@
+
+.map-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: rgb(34,12,8);
+    background: linear-gradient(180deg, rgba(34,12,8,1) 0%, rgba(17,17,17,1) 100%);
+
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #fff;
+}
+
+.map-container h2{
+
+    text-shadow: 0 5px 10px #000000;
+
+    font-size: 3em;
+    font-weight: bold;
+    font-family: font;
+    color: #b46816;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+iframe{
+  width: 80%;
+  height: 500px;
+  margin-bottom: 50px;
+border-radius: 25px;
+box-shadow: -12px 12px 10px rgba(0, 0, 0, 0.807);
+}
+
+@font-face{
+    font-family: font;
+    src:url(font/hidayatullah\ DEMO.ttf);
+}

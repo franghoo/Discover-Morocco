@@ -1,0 +1,199 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh; /*entire height of user's screen*/
+width: 100%;
+background-position: center;
+background-size: cover;
+position: relative;
+background: #220c08;
+
+}
+nav{
+    display: flex;
+    padding: 20px;
+}
+.links{
+    text-align: center;
+    background-color: rgba(35, 56, 39, 0.426);
+    border-radius: 25px;
+    margin: auto; /* Center the navigation links */
+}
+.links ul li{
+    list-style: none;
+    display: inline-block; /*horizontal*/
+    padding: 7px 15px; /* Add padding around the navigation items */
+
+}
+.links ul li a{
+    color: rgba(220, 221, 221, 0.9);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links ul li a:hover{
+    color:#ffffff;
+    transition: 0.5s;
+}
+
+body{
+    margin:0;
+    padding:0;
+    color: #eee;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+.main-title{
+    padding: 20px;
+    text-align: center;
+    font-family: font;
+}
+
+.main-title h2{
+    text-shadow: 0 5px 10px #000000;
+
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.3em;
+    font-family: font;
+    padding: 0 0 20px 0;
+}
+.main-title p{
+    padding: 10px;
+    font-size: 1.5em;
+    color: #f5952f;
+}
+
+
+.jardin{
+    padding: 20px;
+    min-height: 100vh;
+    width: 95%;
+    position: relative;
+}
+.item{
+    position: absolute;
+    inset: 0 0 0 0;
+}
+
+.item img{
+    width: 95%;
+    height: 100vh;
+    display: block;
+margin-right: auto;
+margin-left: auto;    
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.item video{
+    width: 95%;
+    height: 100vh;
+    display: block;
+margin-right: auto;
+margin-left: auto;    
+    object-fit: cover;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+ .item .content{
+position: absolute;
+    top: 20%;
+    width: 1140px;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 5px 10px #0004;
+}
+
+ .item .content .title,
+.item .content .type{
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1.3em;
+    font-family: font;
+    padding: 0 0 20px 0;
+    text-shadow: 0 5px 10px #000000;
+
+}
+
+.item span{
+    color: #f5952f;
+    font-family: font;
+}
+.button{
+    padding: 40px;
+}
+
+ a{
+    font-size: 1.5em;
+    text-shadow: #283618;
+}
+
+.Explore-now{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding:12px 34px;
+    background: rgba(146, 101, 43, 0.4);
+    cursor: pointer;
+ }
+
+ .Explore-now:hover{
+     background: #f5952f;
+     transition: 1s;
+ }
+
+ .description{
+    padding: 5px;
+    font-size: 1.5em;
+    
+ }
+
+
+
+ .item .Content{
+    position: absolute;
+        top: 15%;
+        width: 1140px;
+        max-width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 40%;
+        box-sizing: border-box;
+        color: #fff;
+        text-shadow: 0 5px 10px #0004;
+    }
+    
+     .item .Content .title,
+    .item .Content .type{
+        font-size: 5em;
+        font-weight: bold;
+        line-height: 1.3em;
+        font-family: font;
+        padding: 0 0 20px 0;
+        text-shadow: 0 5px 10px #000000;
+
+    }
+    
+
+
+@font-face{
+    font-family: font;
+    src:url(font/hidayatullah\ DEMO.ttf);
+}
+

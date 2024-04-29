@@ -1,0 +1,168 @@
+/*applicable to all tags*/
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+scroll-behavior: smooth;
+}
+
+.header {
+min-height: 100vh; /*entire height of user's screen*/
+width: 100%;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+body{
+    background: #a06b40;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+}
+.links{
+    text-align: center;
+    background-color: rgba(35, 56, 39, 0.426);
+    border-radius: 25px;
+    margin: auto; /* Center the navigation links */
+}
+.links ul li{
+    list-style: none;
+    display: inline-block; /*horizontal*/
+    padding: 7px 15px; /* Add padding around the navigation items */
+
+}
+.links ul li a{
+    color: rgba(220, 221, 221, 0.9);
+    text-decoration: none;
+    font-size: 18px;
+}
+.links ul li a:hover{
+    color:#ffffff;
+    transition: 0.5s;
+}
+.MainText{
+    font-size: 20px;
+    width:90%;
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: absolute;
+}
+.MainText h1{
+    font-size: 50px;
+    font-family: "font";
+    text-shadow: 5px 5px 20px rgba(34, 12, 8, 0.7)
+}
+.MainText p{
+    margin: 18px 0 40px;
+
+}
+.Explore-now{
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #fff;
+   border-radius: 25px;
+   padding:12px 34px;
+   background: transparent;
+   cursor: pointer;
+}
+.Explore-now:hover{
+    border: 1px solid #283618;
+    background: rgb(40, 54, 24);
+    transition: 1s;
+}
+
+/*culture*/
+.Culture{
+    display: flex;
+    width:100%;
+    background: #220c08;
+   background-color: #220c08;
+   min-height: 100vh; /*entire height of user's screen*/
+}
+
+
+.text{
+    width: 60%;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Culture h1{
+    font-family: font;
+    text-shadow: 0 5px 10px #000000;
+
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 5%;
+    margin-bottom: 8%;
+
+}
+.Culture img{
+    border-radius: 25px;
+    box-shadow: -12px 12px 10px rgba(0, 0, 0, 0.807);
+    transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+
+.Culture span{
+    color: #b46816;
+    font-family: font;
+}
+.Culture img:hover{
+    transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+.Culture p{
+    line-height: 35px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #fff;
+    margin-bottom: 8%;
+    font-size: larger;
+}
+.background-clip{
+    height: auto;
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+
+}
+
+@media (min-aspect-ratio: 16/9)
+{
+    .background-clip{
+        width: 100%;
+        min-height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9)
+{
+    .background-clip{
+        width: auto;
+        min-height: 100%;
+    }
+}
+@font-face{
+    font-family: font;
+    src:url(font/hidayatullah\ DEMO.ttf);
+}
+

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+.links {
+    text-align: center;
+    background-color: rgba(20, 37, 19, 0.426);
+    border-radius: 25px;
+    margin: auto;
+    /* Center the navigation links */
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    /*horizontal*/
+    padding: 7px 15px;
+    /* Add padding around the navigation items */
+
+}
+
+.links ul li a {
+    color: rgba(220, 221, 221, 0.9);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links ul li a:hover {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+body {
+    background: #283618;
+}
+
+section {
+    padding: 20px 16%;
+    background: rgb(40, 54, 24);
+    background: linear-gradient(180deg, rgba(40, 54, 24, 1) 0%, rgba(17, 17, 17, 1) 100%);
+}
+
+.title {
+    text-align: center;
+    font-family: font;
+}
+
+.title h2 {
+    font-family: font;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 12px 12px 10px rgba(32, 36, 33, 0.807);
+
+}
+
+.title p {
+    color: #b26f27;
+    padding: 20px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 3rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.thum {
+    position: relative;
+    transition: all .3s cubic-bezier(.445, .05, .55, .95);
+    cursor: pointer;
+}
+
+.thum img {
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    box-shadow: 12px 12px 10px rgba(32, 36, 33, 0.807);
+
+}
+
+.thum h3 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    color: #fff;
+    top: 20px;
+    right: 25px;
+}
+
+.dest-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.location h4:hover {
+    letter-spacing: 0.05cap;
+    transition: 0.2s;
+}
+
+.location h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #dce3dc;
+
+}
+
+.location p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #b26f27;
+}
+
+.thum:hover {
+    transform: scale(1.04);
+
+}
+
+@font-face {
+    font-family: font;
+    src: url(font/hidayatullah\ DEMO.ttf);
+}

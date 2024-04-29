@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 12, 8);
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+.links {
+    text-align: center;
+    background-color: rgba(85, 41, 17, 0.426);
+    border-radius: 25px;
+    margin: auto;
+    /* Center the navigation links */
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    /*horizontal*/
+    padding: 7px 15px;
+    /* Add padding around the navigation items */
+
+}
+
+.links ul li a {
+    color: rgba(220, 221, 221, 0.9);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links ul li a:hover {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.About {
+    padding: 100px 0 100px 0;
+    display: flex;
+    width: 100%;
+    background: rgb(62, 21, 14);
+    background: linear-gradient(180deg, rgba(34, 12, 8, 1) 0%, rgba(17, 17, 17, 1) 100%);
+    min-height: 100vh;
+    /*entire height of user's screen*/
+}
+
+
+.text {
+    width: 60%;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.About h1 {
+    font-family: font;
+    font-size: 3em;
+    color: #fff;
+    margin-left: 5%;
+    margin-bottom: 8%;
+    text-shadow: 0 5px 10px #8e3636;
+
+}
+
+.About p {
+    font-size: large;
+    color: #fff;
+}
+
+.About img {
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.807);
+    transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+
+.About span {
+    color: #b46816;
+    font-family: font;
+}
+
+.About img:hover {
+    transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.About p {
+    line-height: 35px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #fff;
+    margin-bottom: 8%;
+}
+
+
+.button {
+    padding: 0px 0 0 55px;
+}
+
+a {
+    font-size: 1.3em;
+    text-shadow: #283618;
+}
+
+.Explore-now {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 9px 17px;
+    background: rgba(146, 101, 43, 0.4);
+    cursor: pointer;
+}
+
+.Explore-now:hover {
+    background: #b46816;
+    transition: 1s;
+}
+
+
+
+@media (min-aspect-ratio: 16/9) {
+    .background-clip {
+        width: 100%;
+        min-height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .background-clip {
+        width: auto;
+        min-height: 100%;
+    }
+}
+
+@font-face {
+    font-family: font;
+    src: url(font/hidayatullah\ DEMO.ttf);
+}
